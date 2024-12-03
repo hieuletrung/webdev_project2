@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -37,7 +37,11 @@ nav ul li a {
 .container {
   width: 90%;
   max-width: 1200px;
-  margin: 5em auto 0 auto; /* Adjust margin-top to account for fixed nav */
+  margin: 5em auto 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
 }
 
 h1 {
@@ -69,13 +73,13 @@ img {
   height: auto;
 }
 
-.index .unique-style {
-  color: green;
-}
-.resume .unique-style {
-  color: red;
+.index .container {
+  width: 90%;
+  max-width: 100%;
+  padding: 1em;
 }
 
-.portfolio .unique-style {
-  color: blue;
+.portfolio .container {
+  width: 800px;
+  margin: 5em auto;
 }
